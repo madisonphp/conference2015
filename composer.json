@@ -1,0 +1,16 @@
+{
+    "name": "madisonphp/conference2015",
+    "description": "Website for 2015 Madison PHP Conference",
+    "license": "MIT",
+    "type": "project",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Madison PHP",
+            "email": "conference@madisonphp.com"
+        }
+    ],
+    "require": {
+
+    }
+}
