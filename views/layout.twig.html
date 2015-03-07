@@ -4,11 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Madison PHP Conference 2015</title>
+        <title>{% block title %}Home{% endblock %} // Madison PHP Conference 2015</title>
+        <meta name="description" content="{% block meta_description %}{% endblock %}">
 
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/css/layout.css" rel="stylesheet">
         <link href="/assets/css/style.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -19,9 +21,10 @@
         <![endif]-->
     </head>
     <body>
+
         {% include "includes/nav.twig.html" %}
 
-        <div class="jumbotron text-center">
+        <div class="jumbotron text-center" role="banner">
             <div class="container">
                 <h1><img src="/assets/images/conf-logo.png" alt="Madison PHP Conference"></h1>
                 <h2>Saturday, November 14th, 2015</h2>
@@ -32,6 +35,26 @@
                 </div>
             </div>
         </div>
+
+        <div class="maincontent" role="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        {% block content %}{% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer role="contentinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Copyright &copy; 2015 Madison PHP</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
