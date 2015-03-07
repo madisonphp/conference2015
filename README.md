@@ -7,9 +7,10 @@ Website for the 2015 Madison PHP Conference
 - Grab the project `git clone https://github.com/madisonphp/conference2015.git`
 - Move into the project `cd conference2015`
 - Install packages and dependencies `composer install`
-- Direct requests to `web/index.php`
+- Set `web/` as your public folder
 
 ## Resources
 
-[Silex](http://silex.sensiolabs.org/documentation)
-[Twig](http://twig.sensiolabs.org/)
+* [Bootstrap](http://getbootstrap.com/css/)
+* [Twig](http://twig.sensiolabs.org/)
+* [Silex](http://silex.sensiolabs.org/documentation)
