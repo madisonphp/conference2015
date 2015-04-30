@@ -13,6 +13,10 @@ Website for the 2015 Madison PHP Conference
   - PHP built-in web server
     - php -S localhost:8080 -t web web/index.php
 
+## Deploy
+
+- There is a webhook defined that should automatically update the site on pushes
+
 ## Resources
 
 * [Bootstrap](http://getbootstrap.com/css/)
