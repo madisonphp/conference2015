@@ -17,8 +17,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__ . '/../views',
 ));
 
-// draft site
-$draft_menu = array(
+$published_menu = array(
     'Home' => '/',
     'Schedule' => '/schedule/',
     'Speakers' => '/speakers/',
@@ -28,21 +27,8 @@ $draft_menu = array(
     'Contact' => 'http://contact.madisonphpconference.com'
 );
 
-// live site
-$published_menu = array(
-    'Home' => '/',
-);
 
-// set nav
-if (isset($_GET['preview'])) {
-    foreach ($draft_menu as $key => $val) {
-        if ($key == 'Contact') continue;
-        $draft_menu[$key] = $val . '?preview';
-    }
-    $app['nav'] = $draft_menu;
-} else {
-    $app['nav'] = $published_menu;
-}
+$app['nav'] = $published_menu;
 
 // use layout templates
 $app->before(function () use ($app) {
