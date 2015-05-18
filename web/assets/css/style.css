@@ -220,3 +220,23 @@ a.apple-download:link,a.apple-download:visited
   text-indent:35px;
   padding:7px 10px 3px 5px;
 }
+
+h1, h2, h3, h4 , h5 , h6, .topic-title{color: #111;font-weight:bold;font-family:'Montserrat', sans-serif;margin-bottom:5px;}
+h1 {font-size: 50px;line-height: 58px;color: #111;}
+h2 {font-size: 36px;line-height: 44px;}
+h3 {font-size: 28px;line-height: 36px;}
+h4 {font-size: 20px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
+h1.color,h2.color,h3.color,h4.color,h5.color,h6.color{color:#b70610;}
+h1.white,h2.white,h3.white,h4.white,h5.white,h6.white{color:#FFF;}
+p{margin-bottom: 12px;font-size:14px;line-height:25px;color:#777;letter-spacing:1px;}
+p.white{color:#FFF;}
+a, a > * {text-decoration: none;color:#b70610;-webkit-transition: all 0.4s ease;-moz-transition: all 0.5s ease;-ms-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+a:hover, a > *:hover {-webkit-transition: all 0.4s ease;-moz-transition: all 0.5s ease;-ms-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+em {font-style: italic;}
+strong {font-weight: bolder;color:#000;}
+.colorline{width:100%;height:5px;background-color:#b70610;}
+hr.dividerline {float: left;background: #fff;margin:10px 20px 20px 20px;height: 0px;border:none;border-top: dotted 1px #ccc;width: 940px;}
+.heading-text, .heading-text-price{height:70px;margin-top:50px;}
+ul.list-square li{list-style-type:square;margin:5px 0px 10px 17px;}
