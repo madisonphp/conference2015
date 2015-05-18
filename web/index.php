@@ -24,9 +24,11 @@ $published_menu = array(
     'Venue' => '/venue/',
     'Hotel' => '/hotel/',
     'Sponsors' => '/sponsors/',
+    'What to Expect' => '/expect/',
+    'Organizers' => '/organizers/',
+    'Code of Conduct' => '/conduct/',
     'Contact' => 'http://contact.madisonphpconference.com'
 );
-
 
 $app['nav'] = $published_menu;
 
@@ -84,4 +86,27 @@ $app->get('/sponsors/', function() use($app) {
     ));
 });
 
+// route for expect
+$app->get('/expect/', function() use($app) {
+    return $app['twig']->render('pages/expect.html', array(
+        'nav' => $app['nav'],
+        'active' => 'What to Expect',
+    ));
+});
+
+// route for organizers
+$app->get('/organizers/', function() use($app) {
+    return $app['twig']->render('pages/organizers.html', array(
+        'nav' => $app['nav'],
+        'active' => 'Organizers',
+    ));
+});
+
+// route for conduct
+$app->get('/conduct/', function() use($app) {
+    return $app['twig']->render('pages/conduct.html', array(
+        'nav' => $app['nav'],
+        'active' => 'Code of Conduct',
+    ));
+});
 $app->run();
