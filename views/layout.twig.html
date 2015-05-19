@@ -6,11 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% block title %}Home{% endblock %} // Madison PHP Conference 2015</title>
         <meta name="description" content="{% block meta_description %}{% endblock %}">
+        <meta property="og:image" content="/assets/images/madison-php-logo.jpg">
+        <meta property="og:image:width" content="180">
+        <meta property="og:image:height" content="180">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@madisonphp">
+        <meta name="twitter:title" content="Madison PHP Conference">
+        <meta name="twitter:description" content="Saturday, November 14th, 2015">
+        <meta name="twitter:image" content="/assets/images/madison-php-logo.jpg">
 
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/assets/css/layout.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="/assets/css/style.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,13 +33,13 @@
 
         <div class="jumbotron text-center" role="banner">
             <div class="container">
-                <h1><img src="/assets/images/conf-logo.png" alt="Madison PHP Conference"></h1>
+                <h1><img src="/assets/images/conf-logo.png" class="img-responsive" alt="Madison PHP Conference"></h1>
                 <h2 class="white">Saturday, November 14th, 2015</h2>
-                <div class="shareon-container" style="margin-top: 20px;">
-                    <div class="shareon-text">share on</div>
-                    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://2015.madisonphpconference.com/&amp;p[images][0]=http://2015.madisonphpconference.com/mysite/images/madison-php-shareable.jpg&amp;p[title]=+&amp;p[summary]=Madison PHP" class="facebook-share"> facebook</a>
-                    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://2015.madisonphpconference.com/&amp;text=Madison PHP&amp;via=MadisonPHP" class="twitter-share">twitter</a>
-                </div>
+                <ul class="list-inline">
+                    <li>Share On</li>
+                    <li><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://2015.madisonphpconference.com/&amp;p[images][0]=http://2015.madisonphpconference.com/mysite/images/madison-php-shareable.jpg&amp;p[title]=+&amp;p[summary]=Madison PHP" class="btn btn-default btn-xs"><span class="fa fa-facebook" aria-hidden="true"></span> facebook</a></li>
+                    <li><a target="_blank" href="https://twitter.com/intent/tweet?url=http://2015.madisonphpconference.com/&amp;text=Madison PHP Conference&amp;via=MadisonPHP" class="btn btn-default btn-xs"><span class="fa fa-twitter" aria-hidden="true"></span> twitter</a></li>
+                </ul>
             </div>
         </div>
 
@@ -46,12 +53,12 @@
             </div>
         </div>
 
-        <footer role="contentinfo">
+        <footer role="contentinfo" class="text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <hr>
-                        <p>Copyright &copy; 2015 <a href="http://www.madisonphp.com">Madison PHP</a><br />
+                        <p>Copyright &copy; 2015 <a href="http://www.madisonphp.com">Madison PHP</a><br>
                             Find us on Twitter: <a href="http://www.twitter.com/MadisonPHP">@MadisonPHP (Please use #MadisonPHP on conference tweets)</a></p>
                     </div>
                 </div>
