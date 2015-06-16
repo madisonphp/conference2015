@@ -23,9 +23,10 @@ $published_menu = array(
     //'Speakers' => '/speakers/',
     'Venue' => '/venue/',
     'Hotel' => '/hotel/',
-    //'Sponsors' => '/sponsors/',
+    'Sponsors' => '/sponsors/',
     'What to Expect' => '/expect/',
     'Organizers' => '/organizers/',
+    'Tickets' => '/tickets/',
     'Code of Conduct' => '/conduct/',
     'Contact' => 'http://contact.madisonphpconference.com'
 );
@@ -99,6 +100,14 @@ $app->get('/organizers/', function() use($app) {
     return $app['twig']->render('pages/organizers.html', array(
         'nav' => $app['nav'],
         'active' => 'Organizers',
+    ));
+});
+
+// route for tickets
+$app->get('/tickets/', function() use($app) {
+    return $app['twig']->render('pages/tickets.html', array(
+        'nav' => $app['nav'],
+        'active' => 'Tickets',
     ));
 });
 
