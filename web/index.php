@@ -27,6 +27,7 @@ $published_menu = array(
     'What to Expect' => '/expect/',
     'Organizers' => '/organizers/',
     'Tickets' => '/tickets/',
+    'Call for Papers' => 'http://cfp.madisonphpconference.com',
     'Code of Conduct' => '/conduct/',
     'Contact' => 'http://contact.madisonphpconference.com'
 );
