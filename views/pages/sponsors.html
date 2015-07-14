@@ -9,23 +9,21 @@
 {% block content %}
 <h2>Sponsors</h2>
 
-<p>
-    Madison PHP Conference could not exist without the generous support of our sponsors. If you are interested in becoming a sponsor, please <a href="http://contact.madisonphpconference.com"">contact us</a> to receive our sponsorship prospectus.
-</p>
+<p>Madison PHP Conference could not exist without the generous support of our sponsors. If you are interested in becoming a sponsor, please <a href="http://contact.madisonphpconference.com">contact us</a> to receive our sponsorship prospectus.</p>
 
-<div style="text-align: center;">
-
+<div class="text-center">
     <hr>
     <h3>Bronze Sponsors</h3>
-
-    <a href="http://earthlinginteractive.com/"><img src="/assets/images/sponsors/earthling.png" alt="Earthling Interactive"></a>
-
+    {% for sponsor in sponsors.bronze %}
+        <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive"></a>
+    {% endfor %}
     <hr>
+
     <hr>
     <h3>Community Sponsors</h3>
-
-    <a href="http://www.teamsoftinc.com/"><img src="/assets/images/sponsors/teamsoft.png" alt="TeamSoft, Inc."></a>
-    <a href="http://www.standstand.com/"><img src="/assets/images/sponsors/standstand.jpg" alt="Stand Stand"></a>
+    {% for sponsor in sponsors.community %}
+        <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive"></a>
+    {% endfor %}
 
 </div>
 {% endblock %}

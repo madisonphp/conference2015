@@ -32,6 +32,30 @@ $published_menu = array(
 
 $app['nav'] = $published_menu;
 
+$sponsors = array(
+    'bronze' => array(
+        array(
+            'name' => 'Earthling Interactive',
+            'href' => 'http://earthlinginteractive.com/',
+            'img'  => '/assets/images/sponsors/earthling.png',
+        ),
+    ),
+    'community' => array(
+        array(
+            'name' => 'TeamSoft, Inc.',
+            'href' => 'http://www.teamsoftinc.com/',
+            'img'  => '/assets/images/sponsors/teamsoft.png',
+        ),
+        array(
+            'name' => 'Stand Stand',
+            'href' => 'http://www.standstand.com/',
+            'img'  => '/assets/images/sponsors/standstand.jpg',
+        ),
+    ),
+);
+
+$app['sponsors'] = $sponsors;
+
 // use layout templates
 $app->before(function () use ($app) {
     $app['twig']->addGlobal('layout', null);
@@ -42,6 +66,7 @@ $app->before(function () use ($app) {
 $app->get('/', function() use($app) {
     return $app['twig']->render('pages/home.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Home',
     ));
 });
@@ -82,6 +107,7 @@ $app->get('/hotel/', function() use($app) {
 $app->get('/sponsors/', function() use($app) {
     return $app['twig']->render('pages/sponsors.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Sponsors',
     ));
 });
