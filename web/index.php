@@ -39,6 +39,11 @@ $sponsors = array(
             'href' => 'http://earthlinginteractive.com/',
             'img'  => '/assets/images/sponsors/earthling.png',
         ),
+        array(
+            'name' => 'Madison College',
+            'href' => 'http://it.madisoncollege.edu/',
+            'img'  => '/assets/images/sponsors/madisoncollege.png',
+        ),
     ),
     'community' => array(
         array(
