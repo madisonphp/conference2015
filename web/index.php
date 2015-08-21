@@ -584,6 +584,14 @@ $app->get('/talks/E4/', function() use($app) {
 
     ));
 });
+$app->get('/talks/keynote/', function() use($app) {
+    return $app['twig']->render('pages/talks.html', array(
+        'nav' => $app['nav'],
+        'active' => 'Schedule',
+        'talk' => $app['talks']['keynote'],
+
+    ));
+});
 
 
 
