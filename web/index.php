@@ -274,7 +274,7 @@ Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framew
         'speaker' => array (
             array (
                 'name' => 'Eryn O’Neil',
-                'img' => '/assets/images/speakers/',
+                'img' => '/assets/images/speakers/madison-php-logo.jpg',
                 'bio' => '',
             ),
         ),
