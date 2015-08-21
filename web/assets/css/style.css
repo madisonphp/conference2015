@@ -60,8 +60,14 @@ footer {
 .schedule-list{background-color:#fff;border-bottom:dotted 1px #b70610; clear: both;}
 .schedule-list.odd{background-color:#ddd;}
 .schedule-list .day{width: 80px;float: left;display: inline;margin-right: 0px;}
-.schedule-list .day div, .schedule-list .time div, .schedule-list .details div{padding:15px;}
+.schedule-list .day div, .schedule-list .time div, .schedule-list .details div{padding:15px; font-size: 1em;}
 .schedule-list .time{width: 220px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
 .schedule-list .details{width: 600px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
 #schedule .terms{font-size:11px;margin-top:10px;}
 .schedule-list .clear{clear:both;}
+.schedule-list h6 {font-size: 1.2em;}
+
+.schedule-list .time .time-row, .schedule-list .details .details-row {min-height: 84px;}
+
+
+
