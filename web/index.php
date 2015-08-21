@@ -19,7 +19,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 
 $published_menu = array(
     'Home' => '/',
-    //'Schedule' => '/schedule/',
+    'Schedule' => '/schedule/',
     //'Speakers' => '/speakers/',
     'Venue/Hotel' => '/venue/',
     'Sponsors' => '/sponsors/',
