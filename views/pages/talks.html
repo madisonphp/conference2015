@@ -12,13 +12,13 @@
 
 <h2>{{ talk.title }}</h2>
 
-<p>{{ talk.talk_description }}</p>
+<p>{{ talk.talk_description|raw }}</p>
 
 {% for speaker in talk.speaker %}
     <div style="clear:both;">
     <img src="{{ speaker.img }}" class="img-responsive img-thumbnail" style="float: left; margin-right: 10px;" alt="{{ speaker.name }}"><br>
     <strong>{{ speaker.name }}</strong><br>
-    {{ speaker.bio }}</p>
+    {{ speaker.bio|raw }}</p>
     </div>
 {% endfor %}
 
