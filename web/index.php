@@ -56,6 +56,12 @@ $sponsors = array(
             'href' => 'http://www.standstand.com/',
             'img'  => '/assets/images/sponsors/standstand.jpg',
         ),
+        array(
+            'name' => 'JetBrains',
+            'href' => 'https://www.jetbrains.com/',
+            'img'  => '/assets/images/sponsors/jetbrains.png',
+        ),
+
     ),
 );
 
