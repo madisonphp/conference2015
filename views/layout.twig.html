@@ -43,6 +43,16 @@
             </div>
         </div>
 
+        <div class="row">
+            <div id="horizontal-sponsors">
+                <h3>Sponsors</h3>
+                {% for sponsor in sponsors.bronze %}
+                <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header"></a>
+                {% endfor %}
+            </div>
+        </div>
+
+
         <div class="maincontent" role="main">
             <div class="container">
                 <div class="row">

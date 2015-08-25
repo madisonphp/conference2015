@@ -162,6 +162,7 @@ Alex can be contacted via AlexFraundorf.com and @AlexFraundorf',
                 'name' => 'Mike Willbanks',
                 'img' => '/assets/images/speakers/',
                 'bio' => 'Mike Willbanks lives in Minneapolis, MN where he is the Vice President of Development at Packet Power. Mike has been writing PHP (amongst other languages) professionally since the late 90\'s. He is passionate about open source software, [enterprise] architecture, and ensuring a comprehensive full-stack system. He was the founder of MNPHP and is now a co-organizer of the group. He is also involved in the Midwest PHP conference, serves on the community review team for Zend Framework and is part of the Zend Framework Education Advisory Board.',
+                'twitter' => 'mwillbanks',
             ),
         ),
         'title' => 'Taming the MySQL Vagabond',
@@ -354,6 +355,7 @@ $app->get('/schedule/', function() use($app) {
     return $app['twig']->render('pages/schedule.html', array(
         'nav' => $app['nav'],
         'talks' => $app['talks'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
     ));
 });
@@ -362,6 +364,7 @@ $app->get('/schedule/', function() use($app) {
 $app->get('/speakers/', function() use($app) {
     return $app['twig']->render('pages/speakers.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Speakers',
     ));
 });
@@ -370,6 +373,7 @@ $app->get('/speakers/', function() use($app) {
 $app->get('/venue/', function() use($app) {
     return $app['twig']->render('pages/venue.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Venue',
     ));
 });
@@ -378,6 +382,7 @@ $app->get('/venue/', function() use($app) {
 $app->get('/hotel/', function() use($app) {
     return $app['twig']->render('pages/hotel.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Hotel',
     ));
 });
@@ -395,6 +400,7 @@ $app->get('/sponsors/', function() use($app) {
 $app->get('/expect/', function() use($app) {
     return $app['twig']->render('pages/expect.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'What to Expect',
     ));
 });
@@ -403,6 +409,7 @@ $app->get('/expect/', function() use($app) {
 $app->get('/organizers/', function() use($app) {
     return $app['twig']->render('pages/organizers.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Organizers',
     ));
 });
@@ -411,6 +418,7 @@ $app->get('/organizers/', function() use($app) {
 $app->get('/tickets/', function() use($app) {
     return $app['twig']->render('pages/tickets.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Tickets',
     ));
 });
@@ -419,6 +427,7 @@ $app->get('/tickets/', function() use($app) {
 $app->get('/conduct/', function() use($app) {
     return $app['twig']->render('pages/conduct.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Code of Conduct',
     ));
 });
@@ -428,6 +437,7 @@ $app->get('/talks/A1/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
         'active' => 'Schedule',
+        'sponsors' => $app['sponsors'],
         'talk' => $app['talks']['A1'],
 
     ));
@@ -435,6 +445,7 @@ $app->get('/talks/A1/', function() use($app) {
 $app->get('/talks/A2/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['A2'],
 
@@ -443,6 +454,7 @@ $app->get('/talks/A2/', function() use($app) {
 $app->get('/talks/A3/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['A3'],
 
@@ -451,6 +463,7 @@ $app->get('/talks/A3/', function() use($app) {
 $app->get('/talks/A4/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['A4'],
 
@@ -459,6 +472,7 @@ $app->get('/talks/A4/', function() use($app) {
 $app->get('/talks/B1/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['B1'],
 
@@ -467,6 +481,7 @@ $app->get('/talks/B1/', function() use($app) {
 $app->get('/talks/B2/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['B2'],
 
@@ -475,6 +490,7 @@ $app->get('/talks/B2/', function() use($app) {
 $app->get('/talks/B3/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['B3'],
 
@@ -483,6 +499,7 @@ $app->get('/talks/B3/', function() use($app) {
 $app->get('/talks/B4/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['B4'],
 
@@ -491,6 +508,7 @@ $app->get('/talks/B4/', function() use($app) {
 $app->get('/talks/C1/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['C1'],
 
@@ -499,6 +517,7 @@ $app->get('/talks/C1/', function() use($app) {
 $app->get('/talks/C2/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['C2'],
 
@@ -507,6 +526,7 @@ $app->get('/talks/C2/', function() use($app) {
 $app->get('/talks/C3/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['C3'],
 
@@ -515,6 +535,7 @@ $app->get('/talks/C3/', function() use($app) {
 $app->get('/talks/C4/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['C4'],
 
@@ -523,6 +544,7 @@ $app->get('/talks/C4/', function() use($app) {
 $app->get('/talks/D1/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['D1'],
 
@@ -531,6 +553,7 @@ $app->get('/talks/D1/', function() use($app) {
 $app->get('/talks/D2/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['D2'],
 
@@ -539,6 +562,7 @@ $app->get('/talks/D2/', function() use($app) {
 $app->get('/talks/D3/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['D3'],
 
@@ -547,6 +571,7 @@ $app->get('/talks/D3/', function() use($app) {
 $app->get('/talks/D4/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['D4'],
 
@@ -555,6 +580,7 @@ $app->get('/talks/D4/', function() use($app) {
 $app->get('/talks/E1/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['E1'],
 
@@ -563,6 +589,7 @@ $app->get('/talks/E1/', function() use($app) {
 $app->get('/talks/E2/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['E2'],
 
@@ -571,6 +598,7 @@ $app->get('/talks/E2/', function() use($app) {
 $app->get('/talks/E3/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['E3'],
 
@@ -579,6 +607,7 @@ $app->get('/talks/E3/', function() use($app) {
 $app->get('/talks/E4/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['E4'],
 
@@ -587,6 +616,7 @@ $app->get('/talks/E4/', function() use($app) {
 $app->get('/talks/keynote/', function() use($app) {
     return $app['twig']->render('pages/talks.html', array(
         'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['keynote'],
 

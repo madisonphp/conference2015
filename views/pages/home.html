@@ -7,8 +7,9 @@
 {% endblock %}
 
 {% block content %}
+
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <div class="media">
             <div class="media-left">
                 <img src="/assets/images/reg_table.jpg" alt="Madison PHP Registration Table" class="media-object img-responsive img-thumbnail">
@@ -20,13 +21,7 @@
         <p>Join us on Saturday, November 14th, 2015 for a one day, three track conference in Madison, Wisconsin that focuses on PHP and related web technologies. This event is organized by <a href="http://www.madisonphp.com">Madison PHP</a> and is designed to offer something to attendees at all skill levels. It will be a day of networking, learning, sharing, and great fun!</p>
         <img src="/assets/images/open-space.jpg" alt="conference lobby and vendor area" class="img-responsive img-thumbnail">
     </div>
-    <div class="col-md-4 col-md-push-4">
-        <h3>Bronze Sponsors</h3>
-        {% for sponsor in sponsors.bronze %}
-            <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive"></a>
-        {% endfor %}
-    </div>
-    <div class="col-md-4 col-md-pull-4">
+    <div class="col-md-6">
         <img src="/assets/images/home_sidebar.png" alt="Madison PHP Attendees" class="img-responsive">
     </div>
 </div>
