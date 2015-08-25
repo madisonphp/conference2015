@@ -349,7 +349,7 @@ Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framew
         ),
         'title' => 'Hacking the Human Interface',
         'tagline' => '',
-        'talk_description' => '',
+        'talk_description' => 'Humans are the most complex systems we work with on a regular basis. That complexity produces a huge variety of behaviors that can seem entirely unpredictable on the surface. Thankfully we have a powerful tool in our arsenal that we can use to understand and share the experiences of our fellow humans. Let\'s talk about how we can marshal that often-underutilized ability to unlock the true potential of human relationships, mediate conflict, manage mental health, inspire others, and forge a stronger connection with the world around us.',
     ),
 );
 
