@@ -38,28 +38,39 @@ $sponsors = array(
             'name' => 'Earthling Interactive',
             'href' => 'http://earthlinginteractive.com/',
             'img'  => '/assets/images/sponsors/earthling.png',
+            'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
         ),
         array(
             'name' => 'Madison College',
             'href' => 'http://it.madisoncollege.edu/',
             'img'  => '/assets/images/sponsors/madisoncollege.png',
+            'thumbnail' => '/assets/images/sponsors/madisoncollege_thumb.png',
         ),
+        array(
+            'name' => 'Robert Half',
+            'href' => 'http://www.roberthalf.com/madison/technology-it',
+            'img' => '/assets/images/sponsors/roberthalf.jpg',
+            'thumbnail' => '/assets/images/sponsors/roberthalf_thumb.jpg',
+        )
     ),
     'community' => array(
         array(
             'name' => 'TeamSoft, Inc.',
             'href' => 'http://www.teamsoftinc.com/',
             'img'  => '/assets/images/sponsors/teamsoft.png',
+            'thumbnail' => '/assets/images/sponsors/teamsoft_thumb.png',
         ),
         array(
             'name' => 'Stand Stand',
             'href' => 'http://www.standstand.com/',
             'img'  => '/assets/images/sponsors/standstand.jpg',
+            'thumbnail' => '/assets/images/sponsors/standstand_thumb.jpg',
         ),
         array(
             'name' => 'JetBrains',
             'href' => 'https://www.jetbrains.com/',
             'img'  => '/assets/images/sponsors/jetbrains.png',
+            'thumbnail' => '/assets/images/sponsors/jetbrains_thumb.png',
         ),
 
     ),
@@ -108,7 +119,7 @@ $talks = array(
                 'name' => 'Lyndsey Padget',
                 'img' => '/assets/images/speakers/LyndseyPadget.jpg',
                 'bio' => 'Lyndsey Padget is a technical architect at VML in Kansas City. With over a decade of experience at both mega-corporations and startups, she specializes in designing maintainable and intuitive RESTful APIs. Java runs through her veins (the language and the beverage) and she is an undisputed Eclipse ninja. Her latest obsessions are Google APIs and Angular.js. Trained in agile methodologies, she occasionally stunt-doubles as a project manager (and also, because she is bossy). Lyndsey is involved in local organizations that encourage young women to explore careers in math and science. She believes that the difference between a decent software engineer and a great one often has little to do with code.',
-                'twitter' => '',
+                'twitter' => 'lyndseypadget',
             ),
         ),
         'title' => 'REST for an Hour',
