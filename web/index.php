@@ -72,6 +72,12 @@ $sponsors = array(
             'img'  => '/assets/images/sponsors/jetbrains.png',
             'thumbnail' => '/assets/images/sponsors/jetbrains_thumb.png',
         ),
+        array(
+            'name' => 'The Pragmatic Bookshelf',
+            'href' => 'https://pragprog.com/',
+            'img' => '/assets/images/sponsors/pragmaticprogrammer.png',
+            'thumbnail' => '/assets/images/sponsors/pragmaticprogrammer_thumb.png',
+        )
 
     ),
 );
