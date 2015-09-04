@@ -51,7 +51,13 @@ $sponsors = array(
             'href' => 'http://www.roberthalf.com/madison/technology-it',
             'img' => '/assets/images/sponsors/roberthalf.jpg',
             'thumbnail' => '/assets/images/sponsors/roberthalf_thumb.jpg',
-        )
+        ),
+        array(
+            'name' => 'Midwest PHP',
+            'href' => 'http://2016.midwestphp.org',
+            'img' => '/assets/images/sponsors/mwphp.png',
+            'thumbnail' => '/assets/images/sponsors/mwphp_thumb.png',
+        ),
     ),
     'community' => array(
         array(
