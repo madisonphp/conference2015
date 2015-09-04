@@ -144,13 +144,13 @@ $talks = array(
             array (
                 'name' => 'Christopher Shepherd',
                 'img' => '/assets/images/speakers/ChristopherShepherd.jpg',
-                'bio' => 'Chris Shepherd has been working with PHP for over 15 years. With a wide variety of industrial experience has lead to an intimate knowledge of software development, server technologies, hardware, networking, and web solutions.',
+                'bio' => 'Chris Shepherd is a software engineer for Etsy and has been working with PHP for over 15 years. A wide variety of industrial experience has lead to an intimate knowledge of software development, server technologies, hardware, networking, and web solutions.',
                 'twitter' => 'bitlost',
             ),
         ),
         'title' => 'Finding Your Place',
         'tagline' => '',
-        'talk_description' => 'Have you found yourself wondering if you should be looking for a new job? Does your job haunt your off time, or you feel like you are complaining too much lately? In this talk we will focus on how to find the passion for your work again, give you some tips and tricks for discovering where your skill set and interests lay, and help you figure out if it is time to start looking. Too often we are quick to jump into a new job to fix the problems, only to find our next job is the same. Lets look at if you can’t change your current position to meet your needs better, or if it is time to change, how to figure out what it is you are looking for.',
+        'talk_description' => 'Does your job haunt your off time or you feel like you are complaining too much lately? Have you found yourself wondering if you should be looking for a new job? In this talk, we will focus on how to find the passion for your work again and give you some tips and tricks for discovering where your skill set and interests lay. Too often, we are quick to jump into a new job to fix the problems, only to find our next job is the same. Let\'s look at what you can do to change your current position to better meet your needs and figure out what it is you are really looking for.',
     ),
     'B1' => array(
         'speaker' => array (
