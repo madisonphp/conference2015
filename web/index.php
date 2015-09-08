@@ -196,7 +196,7 @@ Alex can be contacted via AlexFraundorf.com and @AlexFraundorf',
         'speaker' => array (
             array (
                 'name' => 'Mike Willbanks',
-                'img' => '/assets/images/speakers/',
+                'img' => '/assets/images/speakers/MikeWillbanks.jpg',
                 'bio' => 'Mike Willbanks lives in Minneapolis, MN where he is the Vice President of Development at Packet Power. Mike has been writing PHP (amongst other languages) professionally since the late 90\'s. He is passionate about open source software, [enterprise] architecture, and ensuring a comprehensive full-stack system. He was the founder of MNPHP and is now a co-organizer of the group. He is also involved in the Midwest PHP conference, serves on the community review team for Zend Framework and is part of the Zend Framework Education Advisory Board.',
                 'twitter' => 'mwillbanks',
             ),
