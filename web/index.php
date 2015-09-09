@@ -33,18 +33,20 @@ $published_menu = array(
 $app['nav'] = $published_menu;
 
 $sponsors = array(
+    'silver' => array(
+        array(
+            'name' => 'Madison College',
+            'href' => 'http://it.madisoncollege.edu/',
+            'img'  => '/assets/images/sponsors/madisoncollege.png',
+            'thumbnail' => '/assets/images/sponsors/madisoncollege_thumb.png',
+        ),
+    ),
     'bronze' => array(
         array(
             'name' => 'Earthling Interactive',
             'href' => 'http://earthlinginteractive.com/',
             'img'  => '/assets/images/sponsors/earthling.png',
             'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
-        ),
-        array(
-            'name' => 'Madison College',
-            'href' => 'http://it.madisoncollege.edu/',
-            'img'  => '/assets/images/sponsors/madisoncollege.png',
-            'thumbnail' => '/assets/images/sponsors/madisoncollege_thumb.png',
         ),
         array(
             'name' => 'Robert Half',
