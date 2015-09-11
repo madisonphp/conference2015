@@ -85,8 +85,13 @@ $sponsors = array(
             'href' => 'https://pragprog.com/',
             'img' => '/assets/images/sponsors/pragmaticprogrammer.png',
             'thumbnail' => '/assets/images/sponsors/pragmaticprogrammer_thumb.png',
-        )
-
+        ),
+        array(
+            'name' => 'Columbus PHP',
+            'href' => 'http://columbusphp.org',
+            'img' => '/assets/images/sponsors/columbusphp.png',
+            'thumbnail' => '/assets/images/sponsors/columbusphp_thumb.png',
+        ),
     ),
 );
 
