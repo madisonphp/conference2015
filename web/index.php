@@ -342,7 +342,7 @@ Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framew
                 'name' => 'Daniel Greig',
                 'img' => '/assets/images/speakers/DanielGreig.jpg',
                 'bio' => 'Daniel Greig is a technical lead at Earthling Interactive. He has worked in a variety of languages and systems over the last 15 years.',
-                'twitter' => '',
+                'twitter' => 'gargoylesperch',
             ),
         ),
         'title' => 'Bugs bugs everywhere!',
