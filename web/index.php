@@ -303,6 +303,7 @@ Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framew
                 'name' => 'Maxwell Vandervelde',
                 'img' => '/assets/images/speakers/MaxwellVandervelde.png',
                 'bio' => 'Maxwell is a Software Engineer at <a href="http://SmartThings.com">SmartThings</a> in Minneapolis, MN. He has worked on architecting backend API\'s built in PHP in addition to the Android applications that interact with them. He is a passionate open-source software developer specializing in both PHP and Android applications.',
+                'twitter' => 'maxvandervelde',
             ),
         ),
         'title' => 'Demilitarizing HTTP -- Developing API\'s for Mobile applications',
