@@ -229,7 +229,7 @@ Alex can be contacted via AlexFraundorf.com and @AlexFraundorf',
         'speaker' => array (
             array (
                 'name' => 'Aaron Piotrowski',
-                'img' => '/assets/images/speakers/',
+                'img' => '/assets/images/speakers/AaronPiotrowski.jpg',
                 'bio' => 'Computer programmer, web application designer, photographer, and coffee lover.<br>
 Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framework for writing asynchronous code using synchronous coding techniques.',
                 'twitter' => 'trowski2002',
