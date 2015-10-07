@@ -14,6 +14,12 @@
 <div class="text-center">
     <hr>
 
+    <h3>Conference Partner</h3>
+    {% for sponsor in sponsors.partner %}
+    <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-page-images"></a>
+    {% endfor %}
+    <hr>
+
     <h3>Silver Sponsors</h3>
     {% for sponsor in sponsors.silver %}
     <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-page-images"></a>

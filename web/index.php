@@ -33,12 +33,26 @@ $published_menu = array(
 $app['nav'] = $published_menu;
 
 $sponsors = array(
+    'partner' => array(
+        array(
+            'name' => 'Joomla!',
+            'href' => 'https://www.joomla.org/',
+            'img'  => '/assets/images/sponsors/joomla.png',
+            'thumbnail' => '/assets/images/sponsors/joomla_thumb.png',
+        ),
+    ),
     'silver' => array(
         array(
             'name' => 'Madison College',
             'href' => 'http://it.madisoncollege.edu/',
             'img'  => '/assets/images/sponsors/madisoncollege.png',
             'thumbnail' => '/assets/images/sponsors/madisoncollege_thumb.png',
+        ),
+        array(
+            'name' => 'Great Wolf Resorts – Creating Family Traditions, One Family At A Time',
+            'href' => 'http://www.greatwolf.com/careers',
+            'img'  => '/assets/images/sponsors/greatwolf.png',
+            'thumbnail' => '/assets/images/sponsors/greatwolf_thumb.png',
         ),
     ),
     'bronze' => array(
