@@ -74,6 +74,12 @@ $sponsors = array(
             'img' => '/assets/images/sponsors/mwphp.png',
             'thumbnail' => '/assets/images/sponsors/mwphp_thumb.png',
         ),
+        array(
+            'name' => 'Pluralsight',
+            'href' => 'http://www.pluralsight.com',
+            'img' => '/assets/images/sponsors/pluralsight.png',
+            'thumbnail' => '/assets/images/sponsors/pluralsight_thumb.png',
+        ),
     ),
     'community' => array(
         array(
