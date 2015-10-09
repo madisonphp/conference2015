@@ -346,10 +346,10 @@ Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framew
     'D4' => array(
         'speaker' => array (
             array (
-                'name' => 'Eryn O’Neil',
+                'name' => 'TBA',
                 'img' => '/assets/images/speakers/madison-php-logo.jpg',
                 'bio' => '',
-                'twitter' => 'eryno',
+                'twitter' => '',
             ),
         ),
         'title' => 'TBA',
