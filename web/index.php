@@ -81,6 +81,14 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/pluralsight_thumb.png',
         ),
     ),
+    'scholarship' => array(
+        array(
+            'name' => 'Blend Marketing',
+            'href' => 'http://blendimc.com',
+            'img'  => '/assets/images/sponsors/blendmarketing.png',
+            'thumbnail' => '/assets/images/sponsors/blendmarketing_thumb.png',
+        ),
+    ),
     'community' => array(
         array(
             'name' => 'TeamSoft, Inc.',

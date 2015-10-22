@@ -32,10 +32,15 @@
     {% endfor %}
     <hr>
 
+    <h3>Scholarship Sponsors</h3>
+    {% for sponsor in sponsors.scholarship %}
+        <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-page-images"></a>
+    {% endfor %}
     <hr>
+
     <h3>Community Sponsors</h3>
     {% for sponsor in sponsors.community %}
-        <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-page-images"></a>
+    <a href="{{ sponsor.href }}"><img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-page-images"></a>
     {% endfor %}
 
 </div>
