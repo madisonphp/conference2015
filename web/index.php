@@ -346,15 +346,15 @@ Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framew
     'D4' => array(
         'speaker' => array (
             array (
-                'name' => 'TBA',
-                'img' => '/assets/images/speakers/madison-php-logo.jpg',
-                'bio' => '',
-                'twitter' => '',
+                'name' => 'Robbie Adair',
+                'img' => '/assets/images/speakers/RobbieAdair.jpg',
+                'bio' => 'Robbie, the CEO of Media A-team since 2002, specializes in marketing and media strategies and provides training, one-on-one or in groups, to clients. In 2005, she began migrating Mambo clients to the breakaway, Joomla!, and has developed hundreds of websites using the Joomla! platform over the years. Utilizing Fabrik in Joomla has given her the flexibility to develop custom solutions for clients. Visit mediaateam.com or robbieadair.com to learn more.',
+                'twitter' => 'robbieadair',
             ),
         ),
-        'title' => 'TBA',
+        'title' => 'Building Custom Applications with Fabrik',
         'tagline' => '',
-        'talk_description' => '',
+        'talk_description' => 'Can’t find a component to fit your needs?  Fabrik gives you the ability to go well beyond just making custom forms. We’ll look at some of the basic capabilities and then build a small custom application in real time.',
     ),
     'E1' => array(
         'speaker' => array (
