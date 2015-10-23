@@ -80,6 +80,19 @@ $sponsors = array(
             'img' => '/assets/images/sponsors/pluralsight.png',
             'thumbnail' => '/assets/images/sponsors/pluralsight_thumb.png',
         ),
+        array(
+            'name' => 'SiteGround',
+            'href' => 'http://www.siteground.com',
+            'img' => '/assets/images/sponsors/siteground.png',
+            'thumbnail' => '/assets/images/sponsors/siteground_thumb.png',
+        ),
+        array(
+            'name' => 'Clarity Technology Group',
+            'href' => 'http://www.claritytech.com',
+            'img' => '/assets/images/sponsors/clarity.png',
+            'thumbnail' => '/assets/images/sponsors/clarity_thumb.png',
+        ),
+
     ),
     'scholarship' => array(
         array(
