@@ -176,15 +176,15 @@ $talks = array(
     'A2' => array(
         'speaker' => array (
             array (
-                'name' => 'Lyndsey Padget',
-                'img' => '/assets/images/speakers/LyndseyPadget.jpg',
-                'bio' => 'Lyndsey Padget is a technical architect at VML in Kansas City. With over a decade of experience at both mega-corporations and startups, she specializes in designing maintainable and intuitive RESTful APIs. Java runs through her veins (the language and the beverage) and she is an undisputed Eclipse ninja. Her latest obsessions are Google APIs and Angular.js. Trained in agile methodologies, she occasionally stunt-doubles as a project manager (and also, because she is bossy). Lyndsey is involved in local organizations that encourage young women to explore careers in math and science. She believes that the difference between a decent software engineer and a great one often has little to do with code.',
-                'twitter' => 'lyndseypadget',
+                'name' => 'Robbie Adair',
+                'img' => '/assets/images/speakers/RobbieAdair.jpg',
+                'bio' => 'Robbie, the CEO of Media A-team since 2002, specializes in marketing and media strategies and provides training, one-on-one or in groups, to clients. In 2005, she began migrating Mambo clients to the breakaway, Joomla!, and has developed hundreds of websites using the Joomla! platform over the years. Utilizing Fabrik in Joomla has given her the flexibility to develop custom solutions for clients. Visit mediaateam.com or robbieadair.com to learn more.',
+                'twitter' => 'robbieadair',
             ),
         ),
-        'title' => 'REST for an Hour',
+        'title' => 'Building Custom Applications with Fabrik',
         'tagline' => '',
-        'talk_description' => 'REST is everywhere. You may have consumed RESTful APIs before, but implementing your own can present unique design challenges. In this session, we\'ll start off with an overview of REST and why/how it\'s used. We\'ll quickly get into the basic principles of RESTful APIs, terminology, design patterns, data, pitfalls, best practices, and more.',
+        'talk_description' => 'Can’t find a component to fit your needs?  Fabrik gives you the ability to go well beyond just making custom forms. We’ll look at some of the basic capabilities and then build a small custom application in real time.',
     ),
     'A3' => array(
         'speaker' => array (
@@ -256,15 +256,15 @@ Alex can be contacted via AlexFraundorf.com and @AlexFraundorf',
     'B4' => array(
         'speaker' => array (
             array (
-                'name' => 'Patrick Schwisow',
-                'img' => '/assets/images/speakers/PatrickSchwisow.jpg',
-                'bio' => 'Patrick has been into web technologies since the "bad old days" when animated GIFs were required on all sites and the BLINK tag still had some supporters. He suffered through several years of procedural programming in PHP4 before discovering the glories of OOP in PHP5. Patrick is a Software Engineer at Shutterstock, with experience in Doctrine, Symfony, and several less fun technologies. After hours, he\'s the founder and organizer of the Lake / Kenosha County PHP Users Group and a contributor to the Phergie IRC Bot.',
-                'twitter' => 'PSchwisow',
+                'name' => 'Lyndsey Padget',
+                'img' => '/assets/images/speakers/LyndseyPadget.jpg',
+                'bio' => 'Lyndsey Padget is a technical architect at VML in Kansas City. With over a decade of experience at both mega-corporations and startups, she specializes in designing maintainable and intuitive RESTful APIs. Java runs through her veins (the language and the beverage) and she is an undisputed Eclipse ninja. Her latest obsessions are Google APIs and Angular.js. Trained in agile methodologies, she occasionally stunt-doubles as a project manager (and also, because she is bossy). Lyndsey is involved in local organizations that encourage young women to explore careers in math and science. She believes that the difference between a decent software engineer and a great one often has little to do with code.',
+                'twitter' => 'lyndseypadget',
             ),
         ),
-        'title' => 'Conquering Uncomfortable Code Reviews',
+        'title' => 'REST for an Hour',
         'tagline' => '',
-        'talk_description' => 'Whether you are doing individual client work or are part of a large team, even the best of us can overlook things, but a mistake that makes it to production means no sleep, unhappy customers, and lost revenue. Peer code reviews minimize this risk and give you confidence in the code you write, allowing you to make big improvements in code quality without bringing your work to a crawl. Learn how to overcome your fears of sharing your code by incorporating peer reviews into your workflow.',
+        'talk_description' => 'REST is everywhere. You may have consumed RESTful APIs before, but implementing your own can present unique design challenges. In this session, we\'ll start off with an overview of REST and why/how it\'s used. We\'ll quickly get into the basic principles of RESTful APIs, terminology, design patterns, data, pitfalls, best practices, and more.',
     ),
     'C1' => array(
         'speaker' => array (
@@ -367,16 +367,17 @@ Creator of <a href="https://github.com/icicleio/icicle">Icicle</a>, a PHP framew
     'D4' => array(
         'speaker' => array (
             array (
-                'name' => 'Robbie Adair',
-                'img' => '/assets/images/speakers/RobbieAdair.jpg',
-                'bio' => 'Robbie, the CEO of Media A-team since 2002, specializes in marketing and media strategies and provides training, one-on-one or in groups, to clients. In 2005, she began migrating Mambo clients to the breakaway, Joomla!, and has developed hundreds of websites using the Joomla! platform over the years. Utilizing Fabrik in Joomla has given her the flexibility to develop custom solutions for clients. Visit mediaateam.com or robbieadair.com to learn more.',
-                'twitter' => 'robbieadair',
+                'name' => 'Patrick Schwisow',
+                'img' => '/assets/images/speakers/PatrickSchwisow.jpg',
+                'bio' => 'Patrick has been into web technologies since the "bad old days" when animated GIFs were required on all sites and the BLINK tag still had some supporters. He suffered through several years of procedural programming in PHP4 before discovering the glories of OOP in PHP5. Patrick is a Software Engineer at Shutterstock, with experience in Doctrine, Symfony, and several less fun technologies. After hours, he\'s the founder and organizer of the Lake / Kenosha County PHP Users Group and a contributor to the Phergie IRC Bot.',
+                'twitter' => 'PSchwisow',
             ),
         ),
-        'title' => 'Building Custom Applications with Fabrik',
+        'title' => 'Conquering Uncomfortable Code Reviews',
         'tagline' => '',
-        'talk_description' => 'Can’t find a component to fit your needs?  Fabrik gives you the ability to go well beyond just making custom forms. We’ll look at some of the basic capabilities and then build a small custom application in real time.',
+        'talk_description' => 'Whether you are doing individual client work or are part of a large team, even the best of us can overlook things, but a mistake that makes it to production means no sleep, unhappy customers, and lost revenue. Peer code reviews minimize this risk and give you confidence in the code you write, allowing you to make big improvements in code quality without bringing your work to a crawl. Learn how to overcome your fears of sharing your code by incorporating peer reviews into your workflow.',
     ),
+
     'E1' => array(
         'speaker' => array (
             array (
