@@ -9,18 +9,156 @@
 {% block content %}
 
 <div class="container">
-    <div class="sixteen columns heading-text">
-        <div class="separator separator-title">
-            <h2 class="separator-mainheader color">Schedule</h2>
-            <span class="separator-subheader">We&#039;ve assembled a heroic lineup of speakers.</span>
+
+
+    <div class="row">
+
+        <div class="col-md-6 heading-text">
+            <div class="separator separator-title">
+                <h2 class="separator-mainheader color">Schedule</h2>
+                <span class="separator-subheader">We&#039;ve assembled a heroic lineup of speakers.</span>
+            </div><p></p>
+
+            <p><strong>Don't forget to leave feedback for them on Joind.in:</strong><br><strong><a href="https://joind.in/event/madisonphp2015">https://joind.in/event/madisonphp2015</a></strong></p>
+
         </div>
-    </div>
-    <div class="sixteen columns">
-        <p><strong>Don't forget to leave feedback for them on Joind.in:</strong><br><strong><a href="https://joind.in/event/madisonphp2015">https://joind.in/event/madisonphp2015</a></strong></p>
+            <div class="col-md-6 heading-text">
+                <p><a href="/conference_map"><img src="/assets/images/room_map_thumb.png" alt="Conference map"><br>View a map of the conference.</a></p>
+            </div>
+        </div>
 
-    </div>
+
+    {% if talks.rooms_set == 'Yes' %}
+
+    <table class="schedule" border="1" cellspacing="0" cellpadding="5">
+        <tr><td></td><td class="room1"><h4>PHP Roundtable<br>Podcast Room</h4></td><td class="room2"><h4>That Podcast<br>Room</h4></td><td class="room3"><h4>/dev/hell Podcast<br>Room</h4></td><td class="room4"><h4>Loosely Coupled<br>Podcast Room</h4></td></tr>
+        <tr><td nowrap>8:30 am - 9:00 am</td><td colspan="4" class="room6">Check-in (at Registration) and grab some breakfast nibbles (in the Atrium)</td></tr>
+        <tr><td nowrap>9:00 am - 10:00 am</td>
+            <td class="room1"><a href="/talks/A1">{{ talks.A1.title }}</a><br>
+                {% for speaker in talks.A1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room2"><a href="/talks/A2">{{ talks.A2.title }}</a><br>
+                {% for speaker in talks.A2.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room3"><a href="/talks/A4">{{ talks.A4.title }}</a><br>
+                {% for speaker in talks.A4.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room4"><a href="/talks/A3">{{ talks.A3.title }}</a><br>
+                {% for speaker in talks.A3.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        <tr><td nowrap>10:30 am - 11:30 am</td>
+            <td class="room1"><a href="/talks/B4">{{ talks.B4.title }}</a><br>
+                {% for speaker in talks.B4.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room2"><a href="/talks/B3">{{ talks.B3.title }}</a><br>
+                {% for speaker in talks.B3.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room3"><a href="/talks/B1">{{ talks.B1.title }}</a><br>
+                {% for speaker in talks.B1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room4"><a href="/talks/B2">{{ talks.B2.title }}</a><br>
+                {% for speaker in talks.B2.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        <tr><td nowrap>11:30 am - 12:30 pm</td><td colspan="4" class="room5">Lunch -- food provided (in the Voices of the ElePHPant Podcast Lunch Room)</td></tr>
+        <tr><td nowrap>12:30 pm - 1:30 pm</td>
+            <td class="room1"><a href="/talks/C3">{{ talks.C3.title }}</a><br>
+                {% for speaker in talks.C3.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room2"><a href="/talks/C4">{{ talks.C4.title }}</a><br>
+                {% for speaker in talks.C4.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room3"><a href="/talks/C2">{{ talks.C2.title }}</a><br>
+                {% for speaker in talks.C2.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room4"><a href="/talks/C1">{{ talks.C1.title }}</a><br>
+                {% for speaker in talks.C1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        <tr><td nowrap>2:00 pm - 3:00 pm</td>
+            <td class="room1"><a href="/talks/D3">{{ talks.D3.title }}</a><br>
+                {% for speaker in talks.D3.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room2"><a href="/talks/D4">{{ talks.D4.title }}</a><br>
+                {% for speaker in talks.D4.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room3"><a href="/talks/D2">{{ talks.D2.title }}</a><br>
+                {% for speaker in talks.D2.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room4"><a href="/talks/D1">{{ talks.D1.title }}</a><br>
+                {% for speaker in talks.D1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        <tr><td nowrap>3:00 pm - 3:30 pm</td><td colspan="4" class="room6">Snack (in the Atrium)</td></tr>
+        <tr><td nowrap>3:30 pm - 4:30 pm</td>
+            <td class="room1"><a href="/talks/E2">{{ talks.E2.title }}</a><br>
+                {% for speaker in talks.E2.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room2"><a href="/talks/E4">{{ talks.E4.title }}</a><br>
+                {% for speaker in talks.E4.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room3"><a href="/talks/E3">{{ talks.E3.title }}</a><br>
+                {% for speaker in talks.E3.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room4"><a href="/talks/E1">{{ talks.E1.title }}</a><br>
+                {% for speaker in talks.E1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        <tr><td nowrap>4:45 pm - 5:45 pm</td>
+            <td colspan="4" class="room1"><a href="/talks/keynote">{{ talks.keynote.title }}</a><br>
+                {% for speaker in talks.keynote.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+                (in the PHP Roundtable Podcast Room)
+            </td>
+        </tr>
+        <tr><td nowrap>5:45 pm - 6:00 pm</td><td colspan="4" class="room1">Closing Remarks and Prizes (in the PHP Roundtable Podcast Room)</td></tr>
+        <tr><td nowrap>6:00 pm - 7:00 pm</td><td colspan="4" class="room6">Reception -- food provided (in the Atrium)</td></tr>
+    </table>
 
 
+    {% elseif talks.schedule_set == 'Yes' %}
     <div class="sixteen columns schedule-list odd">
         <div class="day">
             <div>
@@ -477,7 +615,7 @@
         </div>
         <div class="schedule-list clear"></div>
     </div>
-
+{% endif %}
 
 </div>
 

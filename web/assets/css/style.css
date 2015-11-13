@@ -84,4 +84,40 @@ footer {
 .schedule-list .time .time-row, .schedule-list .details .details-row {min-height: 84px;}
 
 
+table.schedule {
+    text-align: center;
+}
 
+table.schedule td {
+    width: 20%;
+    padding: 10px 5px;
+}
+
+table.schedule td.room1 {
+    background: #caf9cc;
+    color: #00000;
+}
+table.schedule td.room2 {
+    background: #dcc5fe;
+    color: #00000;
+}
+table.schedule td.room3 {
+    background: #fefbc4;
+    color: #00000;
+}
+table.schedule td.room4 {
+    background: #99ccfc;
+    color: #00000;
+}
+table.schedule td.room5 {
+    background: #812e80;
+    color: #FFFFFF;
+}
+table.schedule td.room6 {
+    background: #b82f26;
+    color: #FFFFFF;
+}
+
+table.schedule td a {
+    font-weight: bolder;
+}
