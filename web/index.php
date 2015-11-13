@@ -139,6 +139,8 @@ $sponsors = array(
 $app['sponsors'] = $sponsors;
 
 $talks = array(
+    'schedule_set' => 'Yes',
+    'rooms_set' => 'Yes',
     'keynote' => array(
         'speaker' => array (
             array (
@@ -528,6 +530,15 @@ $app->get('/conduct/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Code of Conduct',
+    ));
+});
+
+// route for the conference map
+$app->get('/conference_map/', function() use($app) {
+    return $app['twig']->render('pages/conference_map.html', array(
+        'nav' => $app['nav'],
+        'sponsors' => $app['sponsors'],
+        'active' => 'Conference Map',
     ));
 });
 
